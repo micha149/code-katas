@@ -1,4 +1,4 @@
-var TennisGame = require('../index.js'),
+var TennisGame = require('../src/index.js'),
     assert = require('assert');
 
 describe('Tennis Game', function() {
