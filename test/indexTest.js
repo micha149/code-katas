@@ -1,4 +1,4 @@
-var cart = require('../index.js'),
+var cart = require('../src/index.js'),
 	expect = require('chai').expect;
 
 describe('potter cata', function() {
