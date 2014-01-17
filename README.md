@@ -1,4 +1,4 @@
-## Code-Kata Template for NodeJS
+## Potter Kata
 
 To use this code kata boilerplate you need [nodeJs](http://nodejs.org/) with its package manager [npm](https://npmjs.org/) installed. To install all necessary dependencies just run
 
