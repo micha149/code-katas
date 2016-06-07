@@ -1,8 +1,3 @@
-.idea
-
 node_modules/
 npm-debug.log
-
-src-cov/
-docs/output
-coverage.html
+coverage

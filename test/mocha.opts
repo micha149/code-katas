@@ -1,0 +1,4 @@
+--reporter spec
+--compilers js:babel-register
+--require ./test/_helpers/chai.js
+test/**/*Test.js
