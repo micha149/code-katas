@@ -1,13 +1,12 @@
 {
-    "name": "tennis-kata",
+    "name": "code-katas",
+    "public": false,
     "version": "0.1.0",
     "author": "Michael van Engelshoven <michael@van-engelshoven.de>",
-    "description": "Tennis game code kata",
-    "contributors": [
-    ],
+    "description": "A little boilder plate to start code katas with javascript",
     "repository": {
         "type": "git",
-        "url": "https://github.com/micha149/tennis-kata.git"
+        "url": "https://github.com/micha149/code-katas.git"
     },
     "dependencies": {
         "underscore": "1.4.x"
@@ -21,14 +20,10 @@
         "mocha": "^2.5.3",
         "sinon": "^1.17.3"
     },
-    "main": "./index.js",
     "scripts": {
         "coverage": "istanbul cover _mocha --report html -- --reporter min",
         "test": "mocha",
         "watch": "mocha --watch"
     },
-    "license": "MIT",
-    "engines": {
-        "node": ">=0.9.2"
-    }
+    "license": "MIT"
 }
