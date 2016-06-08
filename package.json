@@ -21,6 +21,7 @@
         "sinon": "^1.17.3"
     },
     "scripts": {
+        "start": "babel-node ./src/app.js",
         "coverage": "istanbul cover _mocha --report html -- --reporter min",
         "test": "mocha",
         "watch": "mocha --watch"
