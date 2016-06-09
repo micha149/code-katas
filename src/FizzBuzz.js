@@ -1,15 +1,5 @@
-/**
- * Define Fizz Buzz service API to convert numbers.
- */
-export class FizzBuzz {
+import {createGenerator} from './createGenerator';
+import {fizz} from './fizz';
+import {buzz} from './buzz';
 
-    /**
-     * @param {integer} num
-     * @return {string|number} Fizz buzz output
-     */
-    get(num) {
-        // TODO write your code :)
-        return num;
-    }
-
-}
+export const fizzBuzz = createGenerator(fizz, buzz);
