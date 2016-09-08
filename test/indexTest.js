@@ -1,9 +1,9 @@
 import {example} from '../src';
 
-describe('FizzBuzz', () => {
+describe('Kata Tests', () => {
 
     it('just works', () => {
-        expect(example(1)).to.be.equal(1);
+        expect(example(1)).toEqual(1);
     });
 
 });
